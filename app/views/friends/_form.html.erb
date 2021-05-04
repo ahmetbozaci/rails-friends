@@ -32,10 +32,11 @@
   </div>
 
   <div class="field form-group">
-
     <%= form.text_field :twitter, class:"form-control", placeholder:"Twitter"  %>
   </div>
-
+  <div class="field form-group">
+    <%= form.number_field :user_id, id: :friend_user_id, class:"form-control", value: current_user.id, type: :hidden  %>
+  </div>
   <div class="actions">
     <%= form.submit class:"btn btn-secondary" %>
   </div>
