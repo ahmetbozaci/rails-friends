@@ -2,7 +2,7 @@
 
 #### Check for more information https://www.youtube.com/watch?v=fmyvWz5TUWg
 
-
+![screenshot](./app/assets/images/screenshot.png)
 
 ## Built With
 
